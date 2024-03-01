@@ -3,7 +3,7 @@ import axios from "axios";
 //export default class NetworkHandler {
 export default class NetworkHandler {
   constructor() {
-    this.baseURL = "http://52.194.56.164:3000"; //10.0.2.2
+    this.baseURL = "http://10.0.2.2:3000"; //10.0.2.2
     this.token = "";
     console.log("Created Object");
   }
